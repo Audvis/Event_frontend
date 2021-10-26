@@ -1,0 +1,21 @@
+.li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--WhiteTwo);
+    margin: 15px 5px 15px 5px;
+    padding: 15px;
+    width: 50vw;
+}
+
+.total{
+    text-align: right;
+    margin-right: 140px;
+}
+
+.span{
+    color: var(--Other);
+}
+
+

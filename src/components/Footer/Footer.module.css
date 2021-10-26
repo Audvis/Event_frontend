@@ -1,0 +1,18 @@
+.Footer {
+    z-index: 500;
+    height: 150px;
+    background-color:var(--Primary);
+    color: var(--White);
+    display: flex;
+    align-items: flex-end;
+    box-shadow: var(--BigShadow);
+}
+
+.Footer .logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin: auto;
+    width: 8rem;
+
+}

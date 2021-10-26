@@ -1,0 +1,94 @@
+.contPrin{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contPrin hr{
+    width: 80%;
+    background-color: var(--Secondary);
+}
+
+.contProfile {
+    position: relative;
+    background: var(--Secondary);
+    width: 70%;
+    height: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 768px) { 
+    .contProfile{
+        position: relative;
+        background: var(--Secondary);
+        width: 100%;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+     @media (max-width: 420px) { 
+      .card{
+       width: 50vw;
+       height: max-content;
+      }
+    } 
+
+.imgProfile{
+    background: gray;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 50%;
+    top:5px;
+    overflow: hidden;
+}
+
+.imgProfile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contInfo {
+    margin-top: 10px;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+.contEvents{
+    width: 80%;
+}
+@media (max-width: 768px) { 
+    .contEvents{
+        width: 100%;
+    }
+} 
+
+.contEvents h4 {
+    color:white;
+}
+
+.btnAddEvent{ 
+    color: var(--Black);
+    height: auto;
+    width: 150px;
+    border-radius: 10px;
+    background-color: var(--Button);
+    font-weight: 600;
+}
+.barEvent{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    display: flex;
+    align-items: center;
+}

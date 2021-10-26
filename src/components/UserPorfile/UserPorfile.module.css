@@ -1,0 +1,82 @@
+.contain {
+  overflow: hidden;
+  background: rgba(0, 173, 196, 0.1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.barProfile {
+  position: relative;
+  background: var(--Secondary);
+  width: 70%;
+  height: 200px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  /* box-shadow: -3px 5px 5px 1px var(--Black); */
+}
+@media (max-width: 768px) {
+  .barProfile {
+    position: relative;
+    background: var(--Secondary);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+}
+
+.nombre {
+  margin: 10px;
+}
+.ciudad {
+  margin: 10px;
+}
+
+.myEvents {
+  margin-top: 10px;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.favorites {
+  margin-top: 20px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.profileImg {
+  position: absolute;
+  background: gray;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  top: 25px;
+  overflow: hidden;
+}
+
+.profileImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contInfo {
+  margin-top: 10px;
+  font-size: large;
+  font-weight: 600;
+}
+
+.contMain {
+  height: 100px;
+}

@@ -1,0 +1,30 @@
+.slides{
+    min-width:300px;
+    /* overflow: hidden; */
+    transition: .3s ease all;
+    z-index:10;
+    max-height: 500px;
+    position: relative;
+    /* object-fit: cover; */
+    border: 1px solid rgba(0,173,196,0.1);
+}
+
+.slides img {
+    position:relative;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.textSlide{
+    color: var(--White);
+    width:100%;
+    height: 100%;
+    text-align:center;
+    position: absolute;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, rgba(0, 23, 31,1) 0%,rgba(224, 239, 245,0.2) 100%);
+}

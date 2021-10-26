@@ -1,0 +1,113 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--Primary);
+    width: 300px;
+    height: 170px;
+    margin:30px;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: var(--RadiusOne);
+    box-shadow: var(--ShadowOne) ;
+    position: relative;
+    transform: scale(1);
+    transition-duration: var(--Transition);
+    transition-timing-function: var(--CustomBezier);
+
+}
+.card:hover {
+  transform: scale(1.1);
+  transition-duration: var(--Transition);
+  transition-timing-function: var(--CustomBezier);
+}
+@media (max-width: 768px) { 
+  .card{
+   height: 180px;
+ 
+  }
+}
+  @media (max-width: 420px) { 
+    .card{
+     width: 50vw;
+      
+    }
+  }
+
+  .imgCard{
+    width: 100%;
+height: 70%;
+position: absolute;
+filter: brightness(60%);
+}  
+@media (max-width: 420px) { 
+  .imgCard{
+  height: 70%;
+  }
+}
+
+.titleCard{
+display: flex;
+font-family: var(--Exo);
+font-weight: inherit;
+text-align: center;
+color: var(--White);
+z-index: 10;
+font-size: 20px;
+margin-bottom: 0px;
+}
+@media (max-width: 720px) { 
+  .titleCard{
+  font-size: 1.2rem;
+  }
+}
+  @media (max-width: 420px) { 
+      .titleCard{
+      font-size: 1rem;
+      }
+    }
+
+.tagsCard{
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  background-color: var(--Other);
+  border-radius: 4px;
+  padding: 2px 5px 2px 5px;
+  color: var(--White);
+  z-index: 30;
+  font-size: 10px;
+  box-shadow: var(--ShadowBtn);
+}  
+
+.infoCard{
+    color: var(--White);
+    z-index: 10;
+    margin-bottom: 0px;
+}
+@media (max-width: 420px) { 
+    .infoCard{
+    font-size: 1rem;
+    }
+  }
+  
+
+.btnCard{
+   
+    background-color: var(--Button);
+    border-radius: var(--RadiusOne);
+    width: 70px;
+    position: absolute;
+    left: 150px;
+    bottom: 30px;
+}
+.btnCard:hover{
+    background-color: var(--Other);
+    color: var(--White);
+}
+@media (max-width: 420px) { 
+  .btnCard{
+  left: 37%;
+  bottom:11px;
+  }
+}

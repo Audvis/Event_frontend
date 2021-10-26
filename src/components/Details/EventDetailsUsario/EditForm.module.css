@@ -1,0 +1,12 @@
+.cont{
+    z-index: 10;
+    position: absolute;
+    /* position: fixed;  */
+    top: 0;
+    height: 1000px;
+    width: 100%; 
+    display: flex;
+    /* align-items: center; */
+    justify-content: center; 
+    background: rgba(0, 0, 0, 0.5);
+}

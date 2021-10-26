@@ -1,0 +1,154 @@
+/* CLASES POR ORDEN ALFABÉTICO */
+.category {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contForm2 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow:
+    0px 15px 10px -15px var(--Black),
+    0px -15px 10px -15px var(--Black);
+    margin: 25px;
+}
+
+.contRend {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--White);
+    border-radius: 10px;
+    background: var(--Primary);
+    box-shadow: 0px 0px 50px black;
+    animation: fade var(--Transition);
+    transition-timing-function: var(--CustomBezier);
+}
+
+.contForm2 input, select, option, textarea {
+    border-style: none !important;
+    border-radius: 10px;
+    background: var(--Black);
+    color: var(--White);
+    min-width: max-content;
+    min-height: max-content;
+}
+
+.countrySelect{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.date {
+    width: 173px;
+}
+
+.file {
+    display: flex;
+    flex-direction: column;
+}
+
+.file input {
+    width: 100%;
+    min-width: max-content;
+    border-style: none;
+    border-color: var(--Secondary);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.file input::-webkit-file-upload-button {
+    background-color: var(--Secondary);
+    color: var(--Black);
+    font-weight: 650;
+    border-style: none;
+    padding: 0.25rem;
+}
+
+.file input::-webkit-file-upload-button:hover {
+    background-color: var(--Button);
+    color: var(--Black);
+}
+
+.file span, label {
+    text-align: left;
+}
+
+.inputCheck{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    border-style: none;
+    margin-block: 0.25rem;
+}
+
+.sectorizar {
+    display: flex;
+    flex-direction: column;
+}
+
+.separator { width: 2rem; }
+
+.tick {
+    color: var(--Button);
+    font-weight: 600;
+}
+
+/* ESTILOS DE AUTOCOMPLETADO */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:focus::after,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:focus::after
+ {
+    -webkit-text-fill-color: var(--White);
+    box-shadow:
+    0 0 0 1000px var(--Black) inset,
+    0 0 0 1px var(--Black) !important;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 420px) {
+    .inputCheck {
+        width: 100%;
+        display: flex;
+    }
+}
+
+@media (max-width: 420px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+/*ANIMATIONS*/
+@keyframes fade {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}

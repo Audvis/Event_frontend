@@ -1,0 +1,14 @@
+.subNav{
+    /* background-color: var(--Button); */
+    background-color: var(--Primary);
+    height: 32px;
+    display: flex;
+    align-items: center;
+  }
+
+  .sideBarBtn{
+    background-color: var(--Black);
+    margin-left: 11px;
+    color: var(--White);
+    border-radius: var(--RadiusBtn);
+  }

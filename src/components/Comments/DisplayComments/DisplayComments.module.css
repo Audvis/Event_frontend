@@ -1,0 +1,89 @@
+.comments-wrapper {
+  text-align: center;
+  background-color: var(--Primary);
+}
+.generalRating {
+  color: var(--White);
+  font-size: x-large;
+  text-shadow: 2px 2px 3px black;
+}
+.generalStars {
+  font-size: x-large;
+  color: var(--Button);
+}
+.individualStars {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 70px 70px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 10px #000000;
+  border-radius: 15px;
+}
+.individualStars:hover {
+  box-shadow: inset 0 0 6px #000000;
+}
+.individual {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+
+  box-shadow: inset 0 0 10px #000000;
+  border-radius: 15px;
+  width: fit-content;
+}
+.individual:hover {
+  box-shadow: inset 0 0 6px #000000;
+}
+.stars {
+  color: var(--Button);
+  text-shadow: 1px 1px 2px black;
+  font-size: larger;
+}
+
+.no-rating {
+  color: var(--White);
+}
+.no-reviews {
+  color: var(--White);
+}
+.mainContainer {
+  contain: layout;
+  display: inline-block;
+  background-color: var(--Black);
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px black;
+}
+.rightContainer {
+  padding-top: 20px;
+  padding-right: 25px;
+  float: left;
+  padding-bottom: 20px;
+  max-height: 350px;
+  overflow-y: scroll;
+}
+.leftContainer {
+  background-color: var(--Primary);
+  box-shadow: 5px 10px #00000081;
+  border-radius: 5px;
+  margin: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  float: left;
+  padding-bottom: 10px;
+}
+.starContainer {
+  padding-top: 1px;
+}
+.allRatings:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: var(--Primary) !important;
+}
+.noComments {
+  width: 645px;
+}

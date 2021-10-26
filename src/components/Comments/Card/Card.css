@@ -1,0 +1,40 @@
+.comment-card {
+  border: 0.5px solid var(--Black);
+  border-radius: 5px;
+  padding: 2px;
+  color: var(--White);
+  width: 640px;
+  margin: auto;
+  background-color: var(--Primary);
+  box-shadow: 5px 10px #00000081;
+  margin-bottom: 3px;
+  margin-top: 4px;
+}
+.stars {
+  color: var(--Button);
+}
+.comment-top-half {
+  padding-left: 5px;
+  text-shadow: 1px 1px 2px black;
+  font-size: large;
+  display: flex;
+  align-items: flex-start;
+}
+.comment-bottom-half {
+  padding-left: 5px;
+  text-align: start;
+}
+.deleteComment {
+  position: relative;
+  left: 320px;
+  margin: auto;
+  padding-top: 4px;
+  margin-left: 12px;
+  font-size: smaller;
+  font-style: italic;
+  color: rgba(200, 200, 200, 0.685);
+}
+.deleteComment:hover {
+  cursor: pointer;
+  color: rgba(240, 248, 255);
+}

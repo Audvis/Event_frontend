@@ -1,0 +1,42 @@
+.container{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+    background-color: var(--Primary);
+    color: var(--White);
+    font-size: 15px;
+    z-index: 500;
+    padding:30px 40px 30px 40px;
+    border-radius: 0 0 0 10px;
+    text-align: center;
+    border-left: solid 1px rgba(255, 255, 255, 0.39);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.39);
+    box-shadow: var(--ShadowOne);
+    /* coont */
+}
+
+.btnNo{
+    margin: 0 7px 0 7px;
+    padding: 2px 11px 2px 11px;
+    border-radius: var(--RadiusBtn);
+    cursor: pointer;
+    background-color: var(--Success);
+    color: var(--Primary);
+}
+.btnNo:hover{
+    background-color: var(--White);
+    transition: .3s;
+}
+
+.btnYes{
+    margin: 0 7px 0 7px;
+    padding: 2px 11px 2px 11px;
+    border-radius: var(--RadiusBtn);
+    cursor: pointer;
+    background-color: var(--Alert);
+    color: var(--Primary);
+}
+.btnYes:hover{
+    background-color: var(--White);
+    transition: .3s;
+}

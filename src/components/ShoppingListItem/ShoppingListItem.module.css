@@ -1,0 +1,47 @@
+
+
+.img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 11px;
+}
+
+.p{
+    margin-left: 20px;
+}
+
+.tag{
+    color: var(--White);
+    background-color: var(--Other);
+    padding: 7px;
+    border-radius: var(--RadiusBtn);
+}
+
+.middle{
+    display: flex;
+    
+}
+
+.close{
+    background-color: var(--Other);
+    border: none;
+    border-radius: var(--RadiusBtn);
+    box-shadow: var(--ShadowBtn);
+    color: var(--White);
+}
+.close:hover{
+    background-color: var(--Button);
+    color: var(--Black);
+}
+
+.btnCount{
+    height: 25px;
+   
+    margin: 15px 5px;
+}
+
+.num{
+    color: var(--Primary);
+    font-size: 15px;
+}

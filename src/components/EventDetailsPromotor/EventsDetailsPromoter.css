@@ -1,0 +1,33 @@
+.detailsAll{
+    align-items: center;
+   
+  
+
+}
+
+
+.detailsCard{
+   
+  align-items: center;
+ 
+
+}
+.deailscard2{
+    background-color: var(--Primary);
+    color:var( --Button);
+    align-items: center;
+}
+.titleCard{
+    align-items: center;
+    margin-left:450px;
+}
+.otherDetails{
+    text-align:center;
+    align-items: center;
+    padding: 85px;
+    
+}
+.button{
+    display: inline-grid;
+    background-color: rgb(163, 101, 101);
+}

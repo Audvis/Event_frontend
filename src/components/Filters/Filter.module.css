@@ -1,0 +1,44 @@
+.divFilters{
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 1rem;
+    overflow-y:scroll;
+    height: 75vh; 
+}
+.divFilters:-webkit-scrollbar-thumb{
+    border-radius: 2px;
+    color: aqua;
+    background-color: blue;
+}
+.options{
+    cursor: pointer;
+    width: 10%;
+    color: var(--White);
+}
+.options:hover{
+    color: var(--Button);
+}
+.h5Filters{
+    color: var(--Button);
+    /* text-decoration: underline; */
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.butt{
+    cursor: pointer;
+    width: 15%;
+    background-color:var(--Black);
+    border-radius: 10px;
+    color: var(--White);
+    font-weight: normal;
+    display: block;
+    border: none;
+    white-space: nowrap;
+    padding: 1px 2px 1px;
+    min-width: max-content;
+    min-height: 1.65em;
+    font-size: inherit;
+}
+.butt:hover{
+    color: var(--Button);
+}

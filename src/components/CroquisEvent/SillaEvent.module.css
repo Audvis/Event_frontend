@@ -1,0 +1,13 @@
+.silla{
+    color:var(--Secondary);
+    margin: 0;
+}
+
+.td{
+    margin: 0;
+    padding: 0;
+}
+
+.sillaNd{
+    color:red
+}

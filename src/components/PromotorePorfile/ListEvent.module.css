@@ -1,0 +1,12 @@
+.containerList{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    border: 1px var(--Primary) solid;
+    border-radius: 10px;
+    overflow: auto;
+    background-color: var(--White);  
+    color:var(--Primary) 
+}

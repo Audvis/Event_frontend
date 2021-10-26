@@ -1,0 +1,121 @@
+
+
+.containerParrallax{
+  width: 100vw; 
+  height: 350px;
+}
+
+.imgHead{
+  width: 100vw;
+  height: 350px;
+}
+
+.subContainer{
+  padding-top: 70px;
+  background-color: var(--White);
+  position: relative;
+  z-index: 10;
+ 
+}
+
+.contContainers{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.title{
+  margin: auto;
+  padding: 11px;
+  width: fit-content;
+  font-size: 40px;
+  color: var(--White);
+  background-color: var(--Black);
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-radius: var(--RadiusOne);
+}
+@media (max-width: 768px) { 
+  .title{
+   margin: auto;
+   margin-bottom: 50px;
+  }
+}
+
+.ulContainer{
+  margin: auto;
+  margin-bottom: 70px;
+  width: 60vw;
+  min-height: 700px;
+  max-height: fit-content;
+  background-color: rgb(224, 235, 245);
+  text-align: center;
+  color: var(--Black);
+  border-radius: var(--RadiusOne);
+  border: 2px solid var(--Button);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 768px) { 
+  .ulContainer{
+   width:90%;
+  }
+}
+.ulContainerPass{
+  margin: auto;
+  margin-bottom: 70px;
+  width: 60vw;
+  min-height: 700px;
+  max-height: fit-content;
+  background-color: rgb(224, 235, 245);
+  text-align: center;
+  color: var(--Black);
+  border-radius: var(--RadiusOne);
+  border: 2px solid var(--Alert);
+}
+@media (max-width: 768px) { 
+  .ulContainerPass{
+   width:90%;
+  }
+}
+.ulContainerNow{
+  margin-bottom: 70px;
+  width: 500px;
+  min-height: 700px;
+  max-height: fit-content;
+  background-color: rgb(224, 235, 245);
+  text-align: center;
+  color: var(--Black);
+  border-radius: var(--RadiusOne);
+  border: 2px solid var(--Success);
+}
+
+.ul{
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.btnP{
+  background-color: var(--Button);
+  border-radius: var(--RadiusBtn);
+  padding: 5px;
+}
+.btnP:hover{
+  background-color: rgb(241, 223, 139);
+}
+
+.btnPass{
+  background-color: var(--Alert);
+  border-radius: var(--RadiusBtn);
+  padding: 5px;
+  color: var(--Back);
+}
+.btnPass:hover{
+  background-color: rgb(241, 145, 100);
+}

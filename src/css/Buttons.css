@@ -1,0 +1,74 @@
+.EbtnCard{
+    background-color: var(--Button);
+    border-radius: var(--RadiusOne);
+    width: 70px;
+    cursor: pointer;
+  }
+  .EbtnCard:hover{
+    background-color: var(--Other);
+    color: var(--White);
+  }
+
+  /* REGULAR BUTTONS */
+  .regularBtn{
+    max-width: max-content;
+    background-color: var(--Secondary);
+    color: var(--Black);
+    font-weight: bold;
+    border-style: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: var(--RadiusOne);
+    cursor: pointer;
+    transition: var(--Transition);
+  }
+  .regularBtn:hover{
+    background-color: var(--Button);
+    color: var(--Black);
+    box-shadow: var(--ShadowBtn);
+    transition: var(--Transition);
+  }
+  .regularBtn:active{
+    background-color: var(--Primary);
+    color: var(--Button);
+    box-shadow: var(--ShadowBtn);
+    transform: scale(.9);
+  }
+  .regularBtn:focus-within{
+    background-color: var(--Primary);
+    color: var(--Button);
+    box-shadow: var(--Button);
+    transform: scale(.9);
+  }
+
+  /* CLOUDINARY BUTTONS */
+  .file input::-webkit-file-upload-button {
+    background-color: var(--Secondary);
+    color: var(--Black);
+    font-weight: 650;
+    border-style: none;
+    padding: 0.25rem;
+  }
+
+  /* BIG BUTTONS */
+  .bigBtn {
+    background-color: var(--Secondary);
+    color: var(--Black);
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border-width: 0;
+    align-self: center;
+    transform: scale(1);
+    transition-duration: var(--Transition);
+    transition-timing-function: var(--CustomBezier);
+}
+
+.bigBtn:hover {
+    transform: scale(1.2);
+    background-color: var(--Button);
+    transition-duration: var(--Transition);
+    transition-timing-function: var(--CustomBezier);
+}
+

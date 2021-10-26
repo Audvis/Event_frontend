@@ -1,0 +1,163 @@
+.container{
+    height: 79vh;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.message{
+    color: var(--Other);
+    text-align: center;
+}
+
+.form{
+   background-color: var(--Primary);
+   width: 450px;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 7px;
+   border-radius: var(--RadiusOne);
+   box-shadow: var(--ShadowOne);
+}
+@media (max-width: 420px) { 
+    .form{
+      width: 80vw;
+    }
+  }
+
+  
+.decoration{
+    height: 50px;
+    width: 100%;
+    background-color: var(--Button);
+   color: var(--Primary);
+   text-align: center;
+   font-size: 23px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}  
+
+.formCont{
+    width: 450px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subContainerTwo{
+    margin-top: 30px;
+    display: flex;
+}
+
+.title{
+    color: var(--White);
+    font-size: var(--TitleForm);
+    margin-bottom: 30px;
+}
+.titleTwo{
+    color: var(--White);
+    font-size: var(--TitleFormTwo);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.label{
+    color: var(--White);
+    margin-right: 7px;
+}
+@media (max-width: 420px) { 
+    .label{
+      margin-left: 15px;
+    }
+  }
+
+.btn{
+    width: 100px;
+    background-color: var(--Button);
+    color: var(--Black);
+    margin-top: 23px;
+    border-radius: var(--RadiusOne);
+    padding: 5px;
+    border: none;
+    box-shadow: var(--ShadowTwo);
+}
+
+.btn:hover{
+   transition: var(--Transition);
+   background-color: var(--Other);
+   color: var(--White);
+}
+
+.btnTwo{
+    width: 80px;
+    background-color: var(--Button);
+    margin: 1px 40px 1px 40px;
+    border-radius: var(--RadiusOne);
+    padding: 5px;
+    border: none;
+    box-shadow: var(--ShadowTwo);
+}
+
+.btnTwo:hover{
+    transition: var(--Transition);
+    background-color: var(--Other);
+    color: var(--White);
+}
+
+.true{
+    color: greenyellow;
+    margin-left: 11px;
+    font-size: 25px;
+}
+
+.false{
+    color: red;
+    margin-left: 11px;
+    font-size: 20px;
+}
+
+.null{
+   
+  background-color: var(--Primary);
+  color: var(--Primary);
+  border: none;
+   
+    margin-top: 23px;
+  
+    padding: 5px;  
+}
+
+.iconFalse{
+    color: var(--Alert);
+    font-size: 70px;
+}
+
+.iconTrue{
+    color: var(--Success);
+    font-size: 70px;
+}
+

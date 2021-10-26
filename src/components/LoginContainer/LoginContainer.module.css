@@ -1,0 +1,34 @@
+.container{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnUser{
+    background-color: var(--Secondary);
+    border-radius: var(--RadiusOne);
+  width: auto;
+  padding: 5px;
+  cursor: pointer;
+}
+.btnUser:hover{
+    background-color: var(--White);
+    color: var(--Black);
+  }
+
+.btnPromoter{
+    background-color: var(--Button);
+    border-radius: var(--RadiusOne);
+  width: auto;
+  padding: 5px;
+  cursor: pointer;
+}
+.btnPromoter:hover{
+    background-color: var(--White);
+    color: var(--Black);
+  }

@@ -1,0 +1,14 @@
+.mainContainer{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.title{
+    margin-top: 3px;
+    margin-bottom: 7px;
+    font-size: 50px;
+}

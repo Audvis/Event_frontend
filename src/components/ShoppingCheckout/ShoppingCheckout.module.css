@@ -1,0 +1,19 @@
+.containerParrallax{
+   height: 260px;
+    z-index: 0;
+  
+}
+
+.imgHead{
+    width: 100%;
+    height: 300px;
+   
+}
+
+.containerData{
+    position: relative;
+  z-index: 100;
+  background-color: var(--Back);
+  height: 700px;
+  
+}

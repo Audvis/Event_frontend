@@ -1,0 +1,8 @@
+.contTable{
+    width: 90%;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    height: auto;
+}

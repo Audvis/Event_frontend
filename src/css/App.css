@@ -1,0 +1,268 @@
+
+ #root{
+  position: relative;
+}
+/* #modal{
+  position: absolute;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center; 
+  background: rgba(0, 0, 0, 0.5);
+} */ 
+/**_VARIABLES__________________________________________________________________________________ */
+
+:root {
+  /* Colors */
+  --Primary: #194358;
+  --Secondary: #00b4d8;
+  --Button: #f5af00;
+  --Other: #ce0b0b;
+  --White: #f1f1f1;
+  --WhiteTwo: #d8d8d8;
+  --Black: #00171f;
+  --Alert: #ff4444;
+  --Success: #19c54d;
+  --Back: #e7e7e7;
+
+  /* Fonts */
+  --Alumni: 'Alumni Sans', sans-serif;
+  --Exo: 'Exo 2', sans-serif;
+  --TitleCard: 27px;
+  --TitleForm: 30px;
+  --TitleFormTwo: 25px;
+
+  /* Others */
+  --RadiusOne: 10px;
+  --RadiusBtn: 4px;
+  --RadiusSide: 0 10px 10px 0;
+  --ShadowOne: 3px 3px 3px rgba(0, 0, 0, 1);
+  --Shadow: 3px 3px 3px rgba(0, 0, 0, .6);
+  --InnerShadowOne: -3px -3px 3px rgba(0, 0, 0, 1);
+  --ShadowOneInv: -3px -3px 3px rgba(0, 0, 0, 1);
+  --ShadowTwo: 2px 2px 2px rgba(0, 0, 0, 1);
+  --ShadowBtn:  0 0 10px rgba(0, 0, 0, 1);
+  --BigShadow: 0 0 20px 30px var(--Black);
+  --BigShadowModal: 0 0 30px 20px black;
+  --Transition: .4s;
+  --CustomBezier: cubic-bezier(0.1, 0.9, 1, 1); /* Transición animada personalizada */
+}
+
+/**_GLOBALS____________________________________________________________________________________*/
+body{
+  position: relative;
+  margin-top: 6rem;  /* CORRESPONDE CON NavBar.module.css: .Navbar {height: 4rem;} */
+  background: var(--Black);
+}
+li {
+  list-style: none;
+}
+ul {
+  padding-left: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+.formTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--Button);
+  font-weight: 350;
+  margin: 20px;
+  margin-bottom: 0;
+
+}
+
+.thumbnail {
+  margin: 0 5px;
+  height: 90px;
+}
+.carousel-caption-bottom {
+ opacity: 0%;
+ font-size: 18px;
+}
+
+.carousel-caption-bottom:hover {
+  padding:5px;
+  margin:0px;
+  opacity: 100%;
+  font-size: 18px;
+  background: var(--Black ) 50%;
+  /* rgba:0.5; */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track-piece {
+  background: var(--Black);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--Secondary); 
+  width: 20px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #00b4d8df; 
+}
+
+/** EventStrap */
+
+/** Cards */
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--Primary);
+  width: 300px;
+  height: 220px;
+  margin:30px;
+  margin-bottom: 50px;
+  padding: 30px;
+  border-radius: var(--RadiusOne);
+  box-shadow: var(--ShadowOne) ;
+  position: relative;
+}
+@media (max-width: 768px) { 
+.card{
+ height: max-content;
+}
+}
+@media (max-width: 420px) { 
+  .card{
+   width: 50vw;
+   height: max-content;
+  }
+}
+.imgCard {
+  width: 100%;
+height: 180px;
+position: absolute;
+filter: brightness(60%);
+}  
+.titleCard {
+  color: var(--White);
+  z-index: 10;
+  font-size: var(--TitleCard);
+  font-size: 30px;
+  }
+  @media (max-width: 420px) { 
+      .titleCard{
+      font-size: 1.2rem;
+      }
+    }
+  
+  .infoCard {
+      color: var(--White);
+      z-index: 10;
+      margin-bottom: 0px;
+  }
+  @media (max-width: 420px) {
+      .infoCard{
+      font-size: 1rem;
+      }
+    }
+
+/** MARGIN_____________________________________________________ */
+.margin0{
+  margin: 0px;
+}
+.margin5{
+  margin: 5px;
+}
+.margin15{
+  margin: 15px;
+}
+/** marginTop */
+.margTop20{
+  margin-top: 20px;
+}
+.margTop40{
+  margin-top: 40px;
+}
+@media (max-width: 420px) { 
+  .margTop40{
+    margin-top: 60px;
+  }
+}
+.margTop70{
+  margin-top: 70px;
+}
+/** marginRigth */
+.margRgth10{
+  margin-right: 10px;
+}
+.margRgth20{
+  margin-right: 20px;
+}
+
+/* marginBottom */
+.margBtm0{
+  margin-bottom: 0px;
+}
+
+
+/** Colores */
+
+.bgColorWht{
+  background-color: var(--White);
+}
+.bgcolorBtn{
+  background-color: var(--Button); 
+ }
+
+/** color texto */
+ .txColorWht{
+   color: var(--White);
+ }
+
+ .txColorAlert{
+  color: var(--Alert);
+}
+
+
+ .txAligneCntr{
+   text-align: center;
+ }
+
+ .txSize15{
+   font-size: 15px;
+ }
+
+ /* tamaño imagenes */
+ .imgSize10{
+  width: 30px;
+  height: 30px;
+  border-radius: 70px;
+ }
+
+ .contFlex{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+ }
+
+ .logoutBtn{
+  font-size: 15px;
+  text-decoration: none;
+  color: var(--White);
+  margin-right: 15px;
+ }
+
+ .pointer{
+  cursor: pointer;
+ }

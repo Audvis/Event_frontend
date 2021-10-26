@@ -1,0 +1,42 @@
+.container{
+  background-color: var(--Primary);
+  z-index: 100;
+  width: 250px;
+  position: sticky;
+  top: 0px;
+  margin-right: 0px;
+}
+@media (max-width: 750px) { 
+  .container{
+    z-index: 100;
+    width: 0px;
+    position: sticky;
+    top: 0px;
+  }
+}
+
+.aside {
+    position: relative;
+    background-color: var(--Primary);
+    width: 250px;
+    height: 100vh;
+    z-index: 15;
+    border-radius: var(--RadiusSide);
+    box-shadow: var(--ShadowOne);
+    margin-top: 0px;
+    padding-right: 5px; /* YESSSS! Acá está para darle margen al scroll del sidebar. */
+    padding-top: 10px;
+}
+@media (max-width: 750px) { 
+  .aside{
+width: 100vw;
+margin-top: 0;
+border-radius: 0px ;
+  }
+}
+
+.title{
+    color: var(--White);
+    text-align: center;
+    margin-right: 10px;
+}

@@ -1,0 +1,80 @@
+.subContainer{
+  text-align: center;
+}
+
+.subContainerTwo{
+    margin: auto;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.titleContainer{
+    background-color: var(--Black);
+    width: 95%;
+    height: 100%;
+    padding: 7px;
+}
+
+  .title{
+      margin: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 27px;
+      color: var(--White);
+  }
+
+  .ul{
+      width: 100px;
+      display: flex;
+      justify-content: space-around ;
+  }
+
+  .p{
+      margin: 2px;
+  }
+
+  .prox{
+    width: 100%;
+    height: 100%;
+    background-color: var(--Button);
+    text-align: center;
+    font-size: 23px;
+  }
+
+  .ocur{
+    width: 100%;
+    height: 100%;
+    background-color: var(--Other);
+    color: var(--White);
+    text-align: center;
+    font-size: 23px;
+  }
+
+  .today{
+    width: 100%;
+    height: 100%;
+    background-color: var(--Success);
+    color: var(--White);
+    text-align: center;
+    font-size: 23px;
+  }
+
+  .btn{
+    margin-top: 20px;
+    padding: 7px 11px;
+    background-color: var(--Alert);
+    color: var(--White);
+    border-radius: var(--RadiusOne);
+    cursor: pointer;
+  }
+  .btn:hover{
+    transition: .3s;
+    
+    background-color: red;
+  }
+
+  .titles{
+    margin-bottom: 0px;
+  }

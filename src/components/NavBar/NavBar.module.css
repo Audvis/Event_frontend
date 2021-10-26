@@ -1,0 +1,70 @@
+.Navbar {
+  position: fixed;
+  top: 0;
+  z-index: 500;
+  height: 4rem; /* CORRESPONDE CON App.css: body {margin-top: 4rem;} */
+  width: 100%;
+  font-size: 70px;
+  background-color: var(--Primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--BigShadow);
+}
+
+.loginBtn{
+ font-family: var(--Exo);
+ font-size: 20px;
+ text-decoration: none;
+ color: var(--White);
+ margin-right: 15px;
+}
+.homeBtn{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--White);
+  margin-left: 15px;
+ }
+
+ .homeLogo {
+   width: 6rem;
+ }
+
+ .subNav{
+   background-color: var(--Secondary);
+   height: 30px;
+   display: flex;
+   align-items: center;
+ }
+
+ .sideBarBtn{
+   background-color: var(--Black);
+   margin-left: 11px;
+   color: var(--White);
+ }
+
+ /* .shoppingIcono{
+   color: var;
+ } */
+
+
+ .counterContainer{
+  position: absolute;
+  top: 17px;
+  right: 7px;
+  background-color: var(--Button);
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.counter{
+  font-size: 10px;
+  text-align: center;
+  top: 2px;
+}

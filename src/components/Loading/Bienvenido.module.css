@@ -1,0 +1,29 @@
+
+
+
+ .threeD {
+    color: transparent;
+    background-image: linear-gradient(to left, #194358, #00b4d8, #f5af00,  #00171f);    
+    background-clip: text;
+    animation: color 5s linear infinite;
+    background-size: 500%;  
+    font-size: 30px ;  
+    margin:auto;
+   
+ text-align: center;
+    
+}
+
+@keyframes color {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+
+}
+.linkcrear{
+    text-decoration: none;
+}
