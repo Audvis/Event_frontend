@@ -6,8 +6,7 @@ const store = createStore(
     rootReducer,
     compose(
         applyMiddleware(thunk),
-        window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
+       typeof window.__REDUX_DEVTOOLS_EXTENSION__ !== 'undefined' ?  window.__REDUX_DEVTOOLS_EXTENSION__(): f => f
       )
     );
-
 export default store;
