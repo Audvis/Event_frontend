@@ -1,4 +1,5 @@
-import axios from 'axios'
+import axios from 'axios';
+import URL from '../api/url'
 //*detalles de evento
 export const GET_DETAIL = "GET_DETAIL"
 //*detalle switch
@@ -14,8 +15,7 @@ export const EDIT_EVENT = 'EDIT_EVENT'
 //*activities home
 export const GET_EVENTS_HOME = 'GET_EVENTS_HOME';
 export const GET_EVENTS = 'GET_EVENTS'; //Abi
-//filter
-
+//*filter
 export const FILTER_TAGS = 'FILTER_TAGS';
 export const FILTER_AGE_RATING = 'FILTER_AGE_RATING';
 export const FILTER_WEEKDAYS = 'FILTER_WEEKDAYS';
@@ -54,8 +54,8 @@ export const UPDATE_EVENT_LIMIT='UPDATE_EVENT_LIMIT'
 
  
 
-//export const API = 'http://localhost:3001/api/'
-export const API = 'https://event-henryapp-backend.herokuapp.com/api/'
+export const API = URL
+
 
 
 

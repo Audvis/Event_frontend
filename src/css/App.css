@@ -17,7 +17,7 @@
 
 :root {
   /* Colors */
-  --Primary: #194358;
+  --Primary: #1c4d61;
   --Secondary: #00b4d8;
   --Button: #f5af00;
   --Other: #ce0b0b;
@@ -55,7 +55,7 @@
 body{
   position: relative;
   margin-top: 6rem;  /* CORRESPONDE CON NavBar.module.css: .Navbar {height: 4rem;} */
-  background: var(--Black);
+  background: var(--Back);
 }
 li {
   list-style: none;
@@ -66,6 +66,13 @@ ul {
 a {
   text-decoration: none;
 }
+
+/**_SLIDE__________________________________________________________________________*/
+
+.Slide_slides__G2rQy{
+  margin: 0;
+}
+
 
 .formTitle {
   display: flex;
