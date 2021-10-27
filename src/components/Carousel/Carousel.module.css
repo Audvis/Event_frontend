@@ -11,6 +11,11 @@
   height: 500px;
   flex-wrap: nowrap;
 }
+@media (max-width: 768px) {
+  .contSlideShow {
+    height: 170px;
+  }
+}
 
 .control {
   position: absolute;
